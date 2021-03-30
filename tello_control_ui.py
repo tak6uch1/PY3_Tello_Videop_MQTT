@@ -123,7 +123,6 @@ class TelloUI:
             self.panel = tki.Label(image=image)
             self.panel.image = image
             self.panel.pack(side="left", padx=10, pady=10)
-            #self.panel.pack(side="top", padx=5, pady=5)
         # otherwise, simply update the panel
         else:
             self.panel.configure(image=image)
